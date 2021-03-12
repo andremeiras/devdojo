@@ -7,11 +7,10 @@ public class EstudanteTest {
         Estudante estudante = new Estudante();
 
         System.out.println("\n\n--------------------");
-        estudante.nome = "João";
-        estudante.idade = 12;
-
-        double[] notas = {2.8, 8.7, 5.9};
-        estudante.calculaMedia(notas);
+        estudante.setNome("João");
+        estudante.setIdade(22);
+        estudante.setNotas(new double[] {2.8, 8.7, 8.5});
+        estudante.calculaMedia();
         System.out.println("\n\n");
         
     }
