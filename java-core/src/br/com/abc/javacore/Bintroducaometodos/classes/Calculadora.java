@@ -1,4 +1,4 @@
-package br.com.abc.javacore.introducaometodos.classes;
+package br.com.abc.javacore.Bintroducaometodos.classes;
 
 public class Calculadora {
     

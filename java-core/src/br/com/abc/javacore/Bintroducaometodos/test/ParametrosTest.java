@@ -1,6 +1,6 @@
-package br.com.abc.javacore.introducaometodos.test;
+package br.com.abc.javacore.Bintroducaometodos.test;
 
-import br.com.abc.javacore.introducaometodos.classes.Calculadora;
+import br.com.abc.javacore.Bintroducaometodos.classes.Calculadora;
 
 public class ParametrosTest {
     public static void main(String[] args) {

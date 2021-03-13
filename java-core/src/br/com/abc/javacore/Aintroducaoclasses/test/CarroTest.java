@@ -1,6 +1,6 @@
-package br.com.abc.javacore.introducaoclasses.test;
+package br.com.abc.javacore.Aintroducaoclasses.test;
 
-import br.com.abc.javacore.introducaoclasses.classes.Carro;
+import br.com.abc.javacore.Aintroducaoclasses.classes.Carro;
 
 public class CarroTest {
     

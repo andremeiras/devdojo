@@ -1,6 +1,6 @@
-package br.com.abc.javacore.sobrecargametodos.test;
+package br.com.abc.javacore.Csobrecargametodos.test;
 
-import br.com.abc.javacore.sobrecargametodos.classes.Funcionario;
+import br.com.abc.javacore.Csobrecargametodos.classes.Funcionario;
 
 public class FuncionarioTest {
     public static void main(String[] args) {
