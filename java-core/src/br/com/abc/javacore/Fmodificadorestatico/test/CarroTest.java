@@ -4,22 +4,29 @@ import br.com.abc.javacore.Fmodificadorestatico.classes.Carro;
 
 public class CarroTest {
     
+    public static String teste = "Acessando variável fora do main(). Isto é possível pois a variável é estatica";
+
     public static void main(String[] args) {
-     
-        Carro c1 = new Carro("BMW", 280);
-        Carro c2 = new Carro("Audi", 275);
-        Carro c3 = new Carro("Mercedes", 290);
         
-        c1.imprime();
-        c2.imprime();
-        c3.imprime();
+        System.out.println(teste);
 
-        System.out.println("############");
+        Carro.setVelocidadeLimite(220);
+        System.out.println(Carro.getVelocidadeLimite());
 
-        Carro.velocidadeLimite = 220;
+        // Carro c1 = new Carro("BMW", 280);
+        // Carro c2 = new Carro("Audi", 275);
+        // Carro c3 = new Carro("Mercedes", 290);
+        
+        // c1.imprime();
+        // c2.imprime();
+        // c3.imprime();
 
-        c1.imprime();
-        c2.imprime();
-        c3.imprime();
+        // System.out.println("############");
+
+        // Carro.velocidadeLimite = 220;
+
+        // c1.imprime();
+        // c2.imprime();
+        // c3.imprime();
     }
 }
