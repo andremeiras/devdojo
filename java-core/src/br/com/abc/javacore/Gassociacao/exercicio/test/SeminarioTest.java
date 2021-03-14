@@ -18,7 +18,7 @@ public class SeminarioTest {
         aluno.setSeminario(seminario);
         aluno2.setSeminario(seminario);
 
-        seminario.setProfessor(professor);
+        // seminario.setProfessor(professor);
         // seminario.setLocal(local);
         // seminario.setAlunos(new Aluno[]{aluno, aluno2});
 
@@ -27,6 +27,5 @@ public class SeminarioTest {
         professor.setSeminarios(semArray);
         seminario.print();
         professor.print();
-        
     }
 }
