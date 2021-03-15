@@ -2,17 +2,17 @@ package br.com.abc.javacore.Hheranca.classes;
 
 public class Pessoa {
 
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
-    public Pessoa() {
+    public Pessoa(String nome) {
+        this.nome = nome;
     }
 
-    public Pessoa(String nome, String cpf, Endereco endereco) {
-        this.nome = nome;
+    public Pessoa(String nome, String cpf) {
+        this(nome);
         this.cpf = cpf;
-        this.endereco = endereco;
     }
 
     public void imprime() {
